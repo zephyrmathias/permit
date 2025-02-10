@@ -1,13 +1,10 @@
 "use client";
 
 import dynamic from "next/dynamic"
-import React, { useEffect } from "react"
+import React from "react"
 
 
 function Hello() {
-  // input takes PDF (annotation)
-  // print list of comments
-
   type Circle = {
     type: 'Circle',
     x1: number,
@@ -161,9 +158,6 @@ function Hello() {
 
   getComments(examplesData)
 
-  useEffect(() => {
-
-  }, [])
 
   return (
     <div>123</div>
