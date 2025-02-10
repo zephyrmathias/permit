@@ -2940,7 +2940,7 @@ pdfjs-dist@4.8.69:
     canvas "^3.0.0-rc2"
     path2d "^0.2.1"
 
-pdfjs-dist@^4.10.38:
+pdfjs-dist@^4.10.38, pdfjs-dist@^4.6.82:
   version "4.10.38"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-4.10.38.tgz#3ee698003790dc266cc8b55c0e662ccb9ae18f53"
   integrity sha512-/Y3fcFrXEAsMjJXeL9J8+ZG9U01LbuWaYypvDW2ycW1jL269L3js3DVBjDJ0Up9Np1uqDXsDrRihHANhZOlwdQ==
@@ -3142,7 +3142,7 @@ react-pdf-highlighter@^8.0.0-rc.0:
     react-rnd "^10.4.11"
     ts-debounce "^4.0.0"
 
-react-pdf@^9.2.1:
+react-pdf@^9.1.1, react-pdf@^9.2.1:
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/react-pdf/-/react-pdf-9.2.1.tgz#35294da1232d310243ffe5e54f39281e6c98d8d4"
   integrity sha512-AJt0lAIkItWEZRA5d/mO+Om4nPCuTiQ0saA+qItO967DTjmGjnhmF+Bi2tL286mOTfBlF5CyLzJ35KTMaDoH+A==
@@ -3155,6 +3155,14 @@ react-pdf@^9.2.1:
     pdfjs-dist "4.8.69"
     tiny-invariant "^1.0.0"
     warning "^4.0.0"
+
+react-pdftotext@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/react-pdftotext/-/react-pdftotext-1.3.4.tgz#513b706c33f577aebb726bd035fab2463bb574ab"
+  integrity sha512-WRM41aCYueQn8CikwG9OxAur6DqSn5sE5j1yu3oG+WORTCfJLDH/m0dR9RnggxnKB51tfMeRFyOZuKJQZLtYBQ==
+  dependencies:
+    pdfjs-dist "^4.6.82"
+    react-pdf "^9.1.1"
 
 react-rnd@^10.4.11:
   version "10.4.14"
